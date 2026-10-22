@@ -1,0 +1,31 @@
+{
+  "name": "yaml-parser",
+  "version": "0.0.0",
+  "description": "TypeScript-based parser for the YAML language",
+  "keywords": [
+    "YAML",
+    "parser"
+  ],
+  "homepage": "https://github.com/THSlimes/yaml-parser#readme",
+  "bugs": {
+    "url": "https://github.com/THSlimes/yaml-parser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THSlimes/yaml-parser.git"
+  },
+  "license": "MIT",
+  "author": "THSlimes",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
